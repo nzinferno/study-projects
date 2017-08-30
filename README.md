@@ -1,2 +1,2 @@
 # study-projects
-Work on projects
+Study projects and exercises for bootcamp course
