@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form action = "" method ="post">
+	<label for="firstName">First Name:</label>
+	<input id = firstName type="text" placeholder = "First Name" name="firstName" required>
+	<label for="lastName">Last Name:</label>
+	<input id="lastName" type="text" placeholder = "Last Name" name="lastName" required>
+<div>
+
+	<label for="sexMale">Male</label>
+	<input id = "sexMale" type="radio" name = "sex" value ="Male"  >
+	<label for = "sexFemale">Female</label>
+	<input id = "sexFemale" type="radio" name = "sex" value="Female" >
+	<label for = "sexOther">Other</label>
+	<input id = "sexOther" type="radio" name = "sex" value ="Other">
+</div>
+<div>
+	<label for="email"> Email:</label>
+	<input id = "email" type="email" placeholder = "your email" name="email"  required>
+	<label for = "password">Password:</label>
+	<input type="password" id = "password" placeholder = "Password" name="password" pattern = ".{5,10}" required title="Password must be between 5 to 10 Characters">
+</div>
+<div>
+	<label for = "birthday">Birthday:</label>
+	<select id = "birthday" name = "birthDateMonth">
+		<option>Month</option>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+	</select>
+	<select id = "birthday" name = "birthDateDay">
+		<option>Day</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+	</select>
+	<select id = "birthday" name = "birthDateYear" >
+		<option>Year</option>
+		<option>1900</option>
+		<option>1901</option>
+		<option>1902</option>
+	</select>
+</div>
+<div>
+	<label for = "confirm">I agree to the terms and conditions</label>
+	<input id = "confirm" type="checkbox" name="confirm">
+</div>
+
+<div>
+	<label> Test Box! Please Tick!
+	<input type="checkbox" name="confirm2">
+	</label>
+</div>
+
+<div>
+	<label> Feedback
+	<input type="text" name="testfeedback1" placeholder = "Enter feedback here!" validation>
+	</label>
+</div>
+	
+	<button>Submit</button>
+</form>
+
+</body>
+</html>
