@@ -25,10 +25,14 @@ h1	{
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
+	border-radius: 50%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
 }
 
 #container {
-	margin: 0 auto;
+	margin: 20px auto;
 	max-width: 600px;
 }
 
@@ -40,7 +44,8 @@ h1	{
 }
 
 .selected {
-	background: blue;
+	color: white;
+	background: steelblue;
 }
 
 button {
@@ -51,4 +56,20 @@ button {
 	font-weight: 700;
 	color: steelblue;
 	letter-spacing: 1px;
+	font-size: inherit;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+
+}
+
+#message {
+	color: steelblue;
+	display: inline-block;
+	width: 20%;
 }
